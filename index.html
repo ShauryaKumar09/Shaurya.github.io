@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaurya Kumar | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Shaurya Kumar, a passionate high school student interested in computer science, web development, and machine learning.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">SK.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+            </ul>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="hero-container">
+                <div class="hero-content fade-in-up">
+                    <span class="greeting">Hi, my name is</span>
+                    <h1 class="name">Shaurya Kumar.</h1>
+                    <h2 class="tagline">I build things for the future.</h2>
+                    <p class="hero-desc">
+                        I'm a high school student based in Medina, MN, with a deep interest in software engineering,
+                        artificial intelligence, and computing. I love solving problems and creating impactful projects.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="mailto:shaurya.kumar.mn@gmail.com" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                        <a href="resume.pdf" download class="btn btn-outline" id="resume-btn">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/shaurya-kumar-11b442351" target="_blank"
+                            aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:shaurya.kumar.mn@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:9522455777" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-container fade-in">
+                    <div class="hero-image-wrapper">
+                        <!-- Replace 'profile.jpg' with your actual image file name -->
+                        <img src="profile.jpg" alt="Shaurya Kumar" class="hero-image" id="profile-img"
+                            onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Shaurya+Kumar&size=500&background=8b5cf6&color=fff';">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="section fade-in">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content glass-card">
+                <p>
+                    I am a passionate high school student at Wayzata High School with a deep interest in technology,
+                    specifically in the fields of computer science, web development, and machine learning.
+                    I have worked on several projects that showcase my skills in coding, problem-solving, and project
+                    management.
+                </p>
+                <p>
+                    With strong programming expertise in Python, Java, and SQL, I am excited to take on new challenges
+                    and develop innovative solutions. I'm always eager to learn new technologies and apply them to
+                    real-world problems.
+                </p>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Medina, MN</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(952) 245-5777</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:shaurya.kumar.mn@gmail.com">shaurya.kumar.mn@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section fade-in">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">Sept. 2023 - Present</div>
+                    <h3 class="timeline-title">Wayzata High School</h3>
+                    <p class="timeline-subtitle">High School Diploma</p>
+                    <ul class="course-list">
+                        <li><span>AP Computer Science A</span></li>
+                        <li><span>AP Computer Science Principles</span></li>
+                        <li><span>AP Cybersecurity: Networking</span></li>
+                        <li><span>AP Calculus AB, AP Calculus BC</span></li>
+                        <li><span>AP Microeconomics, AP Macroeconomics</span></li>
+                        <li><span>AP Statistics</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section fade-in">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="pill-container">
+                        <span class="pill">Python</span>
+                        <span class="pill">Java</span>
+                        <span class="pill">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3><i class="fas fa-tools"></i> Tools & Libraries</h3>
+                    <div class="pill-container">
+                        <span class="pill">OpenCV</span>
+                        <span class="pill">MediaPipe</span>
+                        <span class="pill">Microsoft Access</span>
+                        <span class="pill">Microsoft Excel</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3><i class="fas fa-brain"></i> Interests</h3>
+                    <div class="pill-container">
+                        <span class="pill">Machine Learning</span>
+                        <span class="pill">Artificial Intelligence</span>
+                        <span class="pill">Computer Vision</span>
+                        <span class="pill">Cloud Computing</span>
+                        <span class="pill">Data Science</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section fade-in">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">Jan. 2025 - Mar. 2025</div>
+                    <h3 class="timeline-title">Fundraising Intern</h3>
+                    <a href="#" class="timeline-subtitle company-link">Hindu Society of Minnesota (Maple Grove, MN)</a>
+                    <ul class="bullet-list">
+                        <li>Supported the “Dare to Dream” campaign to raise $8M for the new Hindu Education Center.</li>
+                        <li>Assisted with donor outreach, communication, and event coordination, contributing to over
+                            $3.3M raised during the internship.</li>
+                        <li>Gained valuable experience in teamwork, project coordination, and professional
+                            communication.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section fade-in">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="featured-project glass-card">
+                <div class="project-content">
+                    <p class="project-overline">Featured Project</p>
+                    <h3 class="project-title">Human Detection System</h3>
+                    <div class="project-desc-box">
+                        <p>
+                            A real-time human detection system utilizing MediaPipe's machine-learning framework and
+                            OpenCV.
+                            Implemented computer vision models to accurately detect and track human presence in camera
+                            views,
+                            focusing on optimizing detection reliability and ensuring high accuracy through a robust
+                            debugging pipeline.
+                        </p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>Python</li>
+                        <li>MediaPipe</li>
+                        <li>OpenCV</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/shaurya-kumar" target="_blank" aria-label="GitHub Link"><i
+                                class="fab fa-github"></i> Source Code</a>
+                        <!-- Add a link to your live demo or video here -->
+                        <a href="https://youtu.be/RBBcl9BIHZ0" target="_blank" aria-label="Live Demo"
+                            class="demo-link"><i class="fas fa-external-link-alt"></i> Video Demo</a>
+                    </div>
+                </div>
+                <div class="project-image-container">
+                    <!-- This iframe allows a YouTube video to be embedded directly. -->
+                    <!-- Simply replace the 'src' link with your own YouTube video's embed link! -->
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/RBBcl9BIHZ0"
+                            title="Project Demo Video" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section id="awards" class="section fade-in">
+            <h2 class="section-title">Awards</h2>
+            <div class="award-list glass-card">
+                <h3 class="award-org">Business Professionals of America (BPA)</h3>
+                <ul class="bullet-list awards">
+                    <li>
+                        <i class="fas fa-trophy highlight"></i>
+                        <div><strong>8th place nationally</strong> in Database Applications.</div>
+                    </li>
+                    <li>
+                        <i class="fas fa-medal highlight"></i>
+                        <div><strong>1st place at regionals</strong> in Computer Security (network defense,
+                            cryptography).</div>
+                    </li>
+                    <li>
+                        <i class="fas fa-medal highlight"></i>
+                        <div><strong>1st place at regionals</strong> in Linux Operating System Fundamentals.</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section fade-in">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-list">
+                <div class="cert-item glass-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-details">
+                        <h3>Stanford University</h3>
+                        <p class="cert-title">Supervised Machine Learning, Regression & Classification</p>
+                        <p class="cert-desc">Built machine learning models using Python and NumPy. Explored linear
+                            regression, logistic regression, and gradient descent to predict outcomes and classify data
+                            points.</p>
+                    </div>
+                </div>
+                <div class="cert-item glass-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-details">
+                        <h3>Stanford University</h3>
+                        <p class="cert-title">Advanced Learning Algorithms</p>
+                        <p class="cert-desc">Developed and trained neural networks with TensorFlow. Mastered decision
+                            trees, random forests, and XGBoost for complex pattern recognition and multi-class
+                            classification.</p>
+                    </div>
+                </div>
+                <div class="cert-item glass-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-details">
+                        <h3>Stanford University</h3>
+                        <p class="cert-title">Unsupervised Learning, Recommenders, and Reinforcement Learning</p>
+                        <p class="cert-desc">Implemented clustering algorithms like K-means and anomaly detection
+                            systems. Built recommender systems and trained agents using deep reinforcement learning.</p>
+                    </div>
+                </div>
+                <div class="cert-item glass-card">
+                    <div class="cert-icon"><i class="fab fa-microsoft"></i></div>
+                    <div class="cert-details">
+                        <h3>Microsoft Office Specialist</h3>
+                        <p class="cert-title">Access Expert (2019)</p>
+                        <p class="cert-desc">Demonstrated advanced skills in database design, querying, and reporting.
+                            Proficient in managing complex relational databases, formulating SQL queries, and optimizing
+                            data architecture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Built with ❤️ by Shaurya Kumar</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/shaurya-kumar-11b442351" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="mailto:shaurya.kumar.mn@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
